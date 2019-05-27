@@ -1,0 +1,39 @@
+
+
+#server:
+# port: 888
+# path: /user
+
+#user:
+#  name: 李四
+#  age: 18
+#  boss: false
+#  birth: 2019/5/5
+#  lists:
+#    - cat
+#    - dog
+#    - pig
+#  dog:
+#    name: 大黄
+#    age: 2
+#  maps:
+#    k1: v1
+#    k2: v2
+
+# 多文档块方式
+server:
+  port: 8081
+
+spring:
+  profiles:
+    active: prod
+---
+server:
+  port: 8083
+spring:
+  profiles: dev
+---
+server:
+  port: 8085
+spring:
+  profiles: prod #指定属于哪个环境

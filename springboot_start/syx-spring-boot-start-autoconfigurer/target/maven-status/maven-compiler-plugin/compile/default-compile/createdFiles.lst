@@ -1,0 +1,4 @@
+org\starter\Application.class
+org\starter\autoconfig\HelloServiceAutoConfiguration.class
+org\starter\autoconfig\HelloProperties.class
+org\starter\autoconfig\HelloService.class

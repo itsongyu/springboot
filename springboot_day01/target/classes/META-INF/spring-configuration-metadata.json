@@ -1,0 +1,94 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "com.syx.pojo.Empoyee",
+      "name": "empoyee",
+      "type": "com.syx.pojo.Empoyee"
+    },
+    {
+      "sourceType": "com.syx.pojo.User",
+      "name": "user",
+      "type": "com.syx.pojo.User"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "com.syx.pojo.Empoyee",
+      "defaultValue": 0,
+      "name": "empoyee.age",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.syx.pojo.Empoyee",
+      "name": "empoyee.birth",
+      "type": "java.util.Date"
+    },
+    {
+      "sourceType": "com.syx.pojo.Empoyee",
+      "name": "empoyee.boss",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "com.syx.pojo.Empoyee",
+      "name": "empoyee.dog",
+      "type": "com.syx.pojo.Dog"
+    },
+    {
+      "sourceType": "com.syx.pojo.Empoyee",
+      "name": "empoyee.e-name",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.syx.pojo.Empoyee",
+      "name": "empoyee.lists",
+      "type": "java.util.List<java.lang.Object>"
+    },
+    {
+      "sourceType": "com.syx.pojo.Empoyee",
+      "name": "empoyee.maps",
+      "type": "java.util.Map<java.lang.String,java.lang.Object>"
+    },
+    {
+      "sourceType": "com.syx.pojo.Empoyee",
+      "name": "empoyee.name",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.syx.pojo.User",
+      "defaultValue": 0,
+      "name": "user.age",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.syx.pojo.User",
+      "name": "user.birth",
+      "type": "java.util.Date"
+    },
+    {
+      "sourceType": "com.syx.pojo.User",
+      "name": "user.boss",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "com.syx.pojo.User",
+      "name": "user.dog",
+      "type": "com.syx.pojo.Dog"
+    },
+    {
+      "sourceType": "com.syx.pojo.User",
+      "name": "user.lists",
+      "type": "java.util.List<java.lang.Object>"
+    },
+    {
+      "sourceType": "com.syx.pojo.User",
+      "name": "user.maps",
+      "type": "java.util.Map<java.lang.String,java.lang.Object>"
+    },
+    {
+      "sourceType": "com.syx.pojo.User",
+      "name": "user.name",
+      "type": "java.lang.String"
+    }
+  ]
+}
